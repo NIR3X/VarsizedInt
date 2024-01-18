@@ -7,7 +7,7 @@ VarsizedInt is a Go package that offers functionality for encoding and decoding 
 To use this package, you can include it in your Go project using the following go get command:
 
 ```bash
-go get github.com/NIR3X/varsizedint
+go get -u github.com/NIR3X/varsizedint
 
 ```
 
