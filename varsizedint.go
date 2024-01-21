@@ -43,7 +43,7 @@ func ParseSize(src []uint8) int {
 		return 9
 	}
 
-	panic(0)
+	return -1
 }
 
 func Encode(dest []uint8, src uint64) int {
@@ -166,5 +166,5 @@ func Decode(src []uint8) uint64 {
 			uint64(src[8])
 	}
 
-	panic(0)
+	return 0xffffffffffffffff
 }
